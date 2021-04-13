@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/channels_menu"
+        android:icon="@drawable/ic_channels"
+        android:title="@string/channels" />
+    <item
+        android:id="@+id/groups_menu"
+        android:icon="@drawable/ic_groups"
+        android:title="@string/groups" />
+    <item
+        android:id="@+id/settings_menu"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/logout_menu"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/log_out" />
+</menu>
