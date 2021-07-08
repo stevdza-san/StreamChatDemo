@@ -138,7 +138,7 @@ class ChannelFragment : Fragment() {
     }
 
     private fun deleteChannel(channel: Channel) {
-        ChatDomain.instance().useCases.deleteChannel(channel.cid).enqueue { result ->
+        ChatDomain.instance().deleteChannel(channel.cid).enqueue { result ->
             if (result.isSuccess) {
                 showToast("Channel: ${channel.name} removed!")
             } else {
